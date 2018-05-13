@@ -1,0 +1,291 @@
+*,::before,::after{ margin:0; padding:0; box-sizing:border-box;}
+a, article, aside, audio, b, blockquote, body, canvas, caption, dd,  details,div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, label, legend, li, menu, nav, object, ol, output, p,s, section, small, span, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video
+ { margin: 0; padding: 0;  -webkit-touch-callout: none;/*当你触摸并按住触摸目标时候，禁止或显示系统默认菜单 */-webkit-tap-highlight-color: rgba(0,0,0,0); } 
+ol, ul,li{ list-style: none;}
+table { border-collapse: collapse;/*表格的边线重叠*/ border-spacing: 0; }
+input,textarea{resize:none;/*调整尺寸*/ -webkit-user-select: auto !important;} 
+:focus{outline:none;}
+html{font-size: 100px;}
+.m_layout{width:100%; height:1800px;/*后续再去掉*/ background:rgba(255,255,255,1); max-width:7.5rem; min-width:3.2rem; margin:0 auto;-webkit-overflow-scrolling:touch; position:relative; z-index:100;}
+#dl1{
+	width: 100%;
+	height: auto;
+}
+#dl1 .title{
+	width: 100%;
+	height:0.72rem;
+	padding: 0.22rem 0.24rem 0.22rem 0.24rem;
+}
+#dl1 .title div{
+	width: 100%;
+	height: 0.38rem;
+
+}
+#dl1 .title div a img{
+	display: block;
+	width: 0.38rem;
+	height: 0.38rem;
+	float: left;
+}
+#dl1 .title div p{
+	text-align: center;
+	margin: auto;
+	font-size: 0.32rem;
+	color: #333;
+
+}
+#dl1 .logo{
+	width: 100%;
+	height:1.92rem;
+     padding: 0rem 0.24rem;
+     position: relative;
+}
+
+#dl1 .logo img{
+	position: absolute;
+    display:block;
+    margin: auto;
+    top: 0px;
+     left: 0px;
+     right: 0px;
+     bottom: 0px; 
+}
+#dl1 .land{
+	width: 100%;
+	height: 0.52rem;
+	padding: 0rem 0.24rem;
+}
+#dl1 .land div{
+	width: 100%;
+	height: 0.52rem;
+	padding: 0 0.27rem;
+	display: flex;
+	justify-content: space-around;
+}
+#dl1 .land div a{
+	display: block;
+	text-decoration: none;
+	float: left;
+	font-size: 0.3rem;
+	color:#ccc; 
+	text-align: center;
+	line-height: 0.52rem;
+    
+}
+#block1{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+#block1 .value{
+	width: 100%;
+	height: 2.4rem;
+	padding: 0.35rem 0.5rem;
+}
+#block1 .value .phone{
+	width: 100%;
+	height: 1.68rem;
+}
+#block1 .value .phone div{
+	width: 100%;
+	height: 0.82rem;
+	position: relative;
+} 
+#block1 .value .phone div img{
+	display: block;
+	float: left;
+	width: 0.3rem;
+	height: 0.4rem;
+	position: absolute;
+	top: 0.2rem;
+} 
+#block1 .value .phone div input{
+	display: block;
+	border: none;
+	border-bottom: 1px solid #ccc;
+	width: 100%;
+	height: 0.82rem;
+	line-height: 0.82rem;
+	padding-left: 1rem;
+	font-size: 0.3rem;
+	
+}
+#block1 .value .phone div a{
+	display: block;
+	text-decoration: none;
+	color:#8a8a8a; 
+}
+#block1 .bt{
+	width: 100%;
+	height: 1.26rem;
+	
+	padding: 0.26rem 0.5rem;
+}
+#block1 .bt input{
+	width: 100%;
+	height: 100%;
+	background:orange;
+	color: #fff;
+	font-size: 0.3rem;
+	text-align: center;
+	border: none;
+	border-radius: 0.2rem;
+}
+#block1 .tishi{
+	width: 100%;
+	padding: 0.26rem 0.5rem;
+}
+#block1 .tishi a{
+	text-decoration: none;
+	display: block;
+	width: 40%;
+	color: #8e8e8e;
+	font-size: 0.3rem;
+	margin-right:0.3rem;	
+}
+
+
+
+ #block2{
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+#block2 .value2{
+	width: 100%;
+	height: 2.4rem;
+	padding: 0.35rem 0.5rem;
+}
+#block2 .value2 .phone2{
+	width: 100%;
+	height: 1.68rem;
+}
+#block2 .value2 .phone2 div{
+	width: 100%;
+	height: 0.82rem;
+	position: relative;
+} 
+#block2 .value2 .phone2 div img{
+	display: block;
+	float: left;
+	width: 0.3rem;
+	height: 0.4rem;
+	position: absolute;
+	top: 0.2rem;
+} 
+#block2 .value2 .phone2 div input{
+	display: block;
+	border: none;
+	border-bottom: 1px solid #ccc;
+	width: 100%;
+	height: 0.82rem;
+	line-height: 0.82rem;
+	padding-left: 1rem;
+	font-size: 0.3rem;
+	
+}
+#block2 .value2 .phone2 div a{
+	display: block;
+	text-decoration: none;
+	color:#8a8a8a; 
+}
+#block2 .bt2{
+	width: 100%;
+	height: 1.26rem;
+	
+	padding: 0.26rem 0.5rem;
+}
+#block2 .bt2 input{
+	width: 100%;
+	height: 100%;
+	background:orange;
+	color: #fff;
+	font-size: 0.3rem;
+	text-align: center;
+	border: none;
+	border-radius: 0.2rem;
+}
+#block2 .tishi2{
+	width: 100%;
+	padding: 0.26rem 0.5rem;
+}
+#block2 .tishi a{
+	text-decoration: none;
+	display: block;
+	width: 40%;
+	color: #8e8e8e;
+	font-size: 0.3rem;
+	margin-right:0.6rem;	
+	
+} 
+/* #block2{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+#block2 .value2{
+	width: 100%;
+	height: 2.4rem;
+	padding: 0.35rem 0.5rem;
+}
+#block2 .value2 .phone2{
+	width: 100%;
+	height: 1.68rem;
+}
+#block2 .value2 .phone2 div{
+	width: 100%;
+	height: 0.82rem;
+	position: relative;
+} 
+#block2 .value2 .phone2 div img{
+	display: block;
+	float: left;
+	width: 0.3rem;
+	height: 0.4rem;
+	position: absolute;
+	top: 0.2rem;
+} 
+#block2 .value2 .phone2 div input{
+	display: block;
+	border: none;
+	border-bottom: 1px solid #ccc;
+	width: 100%;
+	height: 0.82rem;
+	line-height: 0.82rem;
+	padding-left: 1rem;
+	font-size: 0.3rem;
+	
+}
+#block2 .value2 .phone2 div a{
+	display: block;
+	text-decoration: none;
+	color:#8a8a8a; 
+}
+#block2 .bt2{
+	width: 100%;
+	height: 1.26rem;
+	
+	padding: 0.26rem 0.5rem;
+}
+#block2 .bt2 input{
+	width: 100%;
+	height: 100%;
+	background:orange;
+	color: #fff;
+	font-size: 0.3rem;
+	text-align: center;
+	border: none;
+	border-radius: 0.2rem;
+}
+#block2 .tishi2{
+	width: 100%;
+	padding: 0.26rem 0.5rem;
+}
+#block2 .tishi2 a{
+	text-decoration: none;
+	display: block;
+	width: 40%;
+	color: #8e8e8e;
+	font-size: 0.3rem;
+	margin-right:0.3rem;	
+} */

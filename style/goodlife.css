@@ -1,0 +1,135 @@
+*,::before,::after{ margin:0; padding:0; box-sizing:border-box;}
+
+a, article, aside, audio, b, blockquote, body, canvas, caption, dd,  details,div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, label, legend, li, menu, nav, object, ol, output, p,s, section, small, span, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video
+ { margin: 0; padding: 0;  -webkit-touch-callout: none;/*当你触摸并按住触摸目标时候，禁止或显示系统默认菜单 */-webkit-tap-highlight-color: rgba(0,0,0,0); } 
+ol, ul,li{ list-style: none;}
+table { border-collapse: collapse;/*表格的边线重叠*/ border-spacing: 0; }
+input,textarea{resize:none;/*调整尺寸*/ -webkit-user-select: auto !important;} 
+:focus{outline:none;}
+html{font-size: 100px;
+}
+.m_layout{width:100%; height:auto;/*后续再去掉*/ background:#f9f9f9; max-width:7.5rem; min-width:3.2rem; margin:0 auto;-webkit-overflow-scrolling:touch; position:relative; z-index:100;overflow: hidden;}
+/* .title{
+	width: 100%;
+	height:0.96rem;
+	padding:0.3rem 0.3rem;
+	position: fixed;
+	background: #fff;
+	z-index: 1000;
+}
+.title .return{
+	display: block;
+	width:0.35rem;
+	height: 0.35rem;
+	padding-right: 1.5rem;
+	float: left;
+}
+.title .return img{
+	width:0.35rem;
+	height: 0.35rem;
+	display: block;
+}
+.title div {
+	width: 100%;
+	height: 100%;
+
+}
+.title div a{
+	display: block;
+	text-decoration: none;
+	font-size: 0.35rem;
+	color: #8c8c8c;
+	float: left;
+	text-align:center;
+}
+.title div a:nth-child(1){
+	padding-right:20%;
+}
+.title div a:nth-child(2){
+	padding-right:20%;
+} */
+
+.content{
+	width: 100%;
+	height: 6.86rem;
+	margin-bottom: 0.17rem;
+	background: #fff;
+}
+.content .top{
+	width: 100%;
+	height: 0.96rem;
+	padding:0 0.3rem;
+}
+.content .top img{
+	display:block;
+	width: 0.66rem;
+	height: 0.7rem;
+	margin-top:0.1rem;
+	margin-right: 0.32rem;
+	float: left;
+}
+.content .top span{
+	display: block;
+	float: left;
+	color: #848484;
+	font-size: 0.32rem;
+	padding-top:0.2rem ;
+}
+.content .top p{
+	display: block;
+	float:right;
+	color: #919191;
+	font-size: 0.32rem;
+	padding-top:0.2rem ;
+}
+.content .cent{
+	width: 100%;
+	height: 4.2rem;
+	position: relative;
+}
+.content .cent img{
+	display: block;
+	width: 100%;
+	height: 4.2rem;	
+}
+.content .cent span{
+	position: absolute;
+	color:#fff; 
+	font-size: 0.32rem
+	width: 0.96rem;
+	height: 0.38rem;
+	right: 0;
+	bottom:0;
+	background: rgba(0,0,0,0.5);
+}
+.content .bottom{
+	width: 100%;
+	height: 1.7rem;
+	padding:0.3rem 0.32rem;
+	background: #fff;
+}
+.content .bottom p{
+	color: #2b2b2b;
+	font-size: 0.32rem;
+	padding-bottom: 0.39rem;
+}
+.content .bottom img{
+  width: 0.35rem;
+  height: 0.4rem;
+  display: block;
+  float: left;
+}
+.content .bottom span.p1{
+  display: block;
+  float: left;
+  color:#808080;
+  font-size: 0.25rem;
+  padding-left: 0.1rem; 
+
+}
+.content .bottom span.p2{
+	display: block;
+	color: orange;
+	font-size: 0.3rem;
+	float: right;
+}  

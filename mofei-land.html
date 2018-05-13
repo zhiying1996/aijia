@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="shortcut icon" type="image/x-icon"  href="favicon.ico">
+	<link rel="stylesheet" type="text/css" href="style/mofei-land.css">
+	<link rel="stylesheet" type="text/css" href="style/swiper-3.4.2.min.css"><!-- 轮播css -->
+	<script type="text/javascript" src="js/swiper-3.4.2.min.js"></script><!-- 轮播插件 -->
+	<script type="text/javascript" src="js/adaptive.js"></script><!-- pc移动转换js -->
+</head>
+<body>
+<div class="m_layout">
+	<div id="dl1">
+		<div class="title">
+			<div>
+				<a href="index.html"><img src="images/dl-return.png"></a>
+			    <p>登陆</p>
+		    </div>	
+		</div>
+		<div class="logo">       
+		        <img src="images/dl-log.png">	
+		</div>
+		<div class="land">
+		        <div>
+			        <a class="ks" href="#">快速登陆</a>
+					<a class="zh" href="#">账号登陆</a>
+				</div>		
+		</div>
+		<div id="block1">
+				<div class="value">
+					<div class="phone">
+					    <div>
+						    <img src="images/dl-ji.png">
+						    <input type="text" name="" placeholder="输入手机号">
+					    </div>
+					   <div>
+						   <img src="images/dl-duanxin.png">
+						   <input type="text" name="" placeholder="输入验证码">
+					   </div>		    
+					</div>			
+				</div>
+				<div class="bt">
+					<input type="button" name="" value="登陆">
+				</div>
+				<div class="tishi">
+					<a href="#">发送验证码</a>
+				</div>
+	</div>
+	<div id="block2">
+				<div class="value2">
+					<div class="phone2">
+					    <div>
+						    <img src="images/dl-ji.png">
+						    <input type="text" name="" placeholder="输入手机号">
+					    </div>
+					   <div>
+						   <img src="images/dl-duanxin.png">
+						   <input type="text" name="" placeholder="输入验证码">
+					   </div>		    
+					</div>			
+				</div>
+				<div class="bt2">
+					<input type="button" name="" value="登陆">
+				</div>
+				<div class="tishi">
+					<a href="#">忘记密码</a>
+				</div>
+	</div>
+	   
+</div>
+<script type="text/javascript">
+    var dl1=document.getElementById("block1");
+    var dl2=document.getElementById("block2");
+	var ks=document.getElementsByClassName("ks");
+	var zh=document.getElementsByClassName("zh");
+	ks[0].onclick=function(){     
+	var ks=document.getElementsByClassName("ks");
+	var zh=document.getElementsByClassName("zh");  
+       dl2.style.display="none";
+       dl1.style.display="block";
+       ks[0].style.color="orange";
+       ks[0].style.borderBottom="2px solid orange";
+       zh[0].style.color="#ccc";
+       zh[0].style.borderBottom="none";
+	}
+	zh[0].onclick=function(){
+		var ks=document.getElementsByClassName("ks");
+		var zh=document.getElementsByClassName("zh");
+	   dl1.style.display="none";
+       dl2.style.display="block";
+       zh[0].style.color="orange";
+       zh[0].style.borderBottom="2px solid orange";
+       ks[0].style.color="#ccc";
+       ks[0].style.borderBottom="none";
+	}
+</script>
+</body>
+</html>

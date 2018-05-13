@@ -1,0 +1,178 @@
+*,::before,::after{ margin:0; padding:0; box-sizing:border-box;}
+
+a, article, aside, audio, b, blockquote, body, canvas, caption, dd,  details,div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, label, legend, li, menu, nav, object, ol, output, p,s, section, small, span, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video
+ { margin: 0; padding: 0;  -webkit-touch-callout: none;/*当你触摸并按住触摸目标时候，禁止或显示系统默认菜单 */-webkit-tap-highlight-color: rgba(0,0,0,0); } 
+ol, ul,li{ list-style: none;}
+table { border-collapse: collapse;/*表格的边线重叠*/ border-spacing: 0; }
+input,textarea{resize:none;/*调整尺寸*/ -webkit-user-select: auto !important;} 
+:focus{outline:none;}
+html{font-size: 100px;}
+.m_layout{ width:100%; height:500px;/*后续再去掉*/ background:rgba(255,255,255,1); max-width:7.5rem; min-width:3.2rem; margin:0 auto;-webkit-overflow-scrolling:touch; position:relative; z-index:100;}
+
+header{
+	width: 100%;
+	height:0.94rem;
+	position: relative;
+	border-bottom: 1px solid #dadada;
+}
+header a.ston{
+	float: left;
+	width: 0.34rem;
+	height: 0.34rem;
+	position: absolute;
+	padding: 0.28rem 0rem 0.28rem 0.3rem;
+}
+header a.ston img{
+	width: 0.34rem;
+	height: 0.34rem;
+	display: block;
+
+}
+header span{
+	display: block;
+	color: #999;
+	font-size: 0.2rem;
+	text-align: center;
+	font-size: 0.32rem;
+	padding-top: 0.25rem;
+}
+header a.big{
+	width: 0.34rem;
+	height: 0.34rem;
+	display: block;
+	position: absolute;
+	top: 0.28rem;
+	right: 1.28rem;
+	float: left;
+}
+header a.big img{
+	width: 0.34rem;
+	height: 0.34rem;
+	display: block;
+
+}
+header a.account{
+	width: 0.34rem;
+	height: 0.34rem;
+	display: block;
+	position: absolute;
+	top: 0.28rem;
+	right: 0.3rem;
+	float: left;
+}
+header a.account img{
+	width: 0.34rem;
+	height: 0.34rem;
+	display: block;
+
+}
+.select{
+	width: 100%;
+	height: 0.96rem;
+	border-bottom: 1px solid #dadada; 
+ }
+ .select ul{
+ 	width: 100%;
+ 	height: 100%;
+ 	padding-top: 0.32rem;
+ 	padding-left: 0.6rem;
+ 	/*display: flex;
+ 	justify-content: space-around; */
+ }
+ .select ul li{
+ 	float: left;
+ 	width: 25%;
+ 	padding-left: 0.3rem;
+ 	display: block;
+ 	height: 0.4rem;
+ 	border-right: 1px solid #dadada;
+ }
+.select ul li:nth-child(4){
+	border: none;
+}
+.select ul li span{
+	color: 0.26rem;
+	padding-right:0.12rem; 
+	color: #1a1a1a;  
+}
+.select ul li img{
+	width: 0.2rem;
+	height: 0.12rem;
+}
+.room{
+	width: 100%;
+	height: 2.2rem;
+	border-bottom: 1px solid #dadada;
+	padding: 0.24rem 0rem 0.24rem 0.21rem; 
+}
+.room .room-left{
+	width: 2.35rem;
+	height: 1.74rem;
+	float: left;
+}
+.room .room-left img{
+	display: block;
+	width: 2.35rem;
+	height: 1.74rem;
+}
+.room .room-right{
+   width: 4.8rem;
+   height: 1.74rem;
+   float: right;
+}
+.room .room-right p{
+	width: 100%;
+	height: auto;
+	font-size: 0.26rem;
+	color: #414141;
+	padding-bottom: 0.09rem;
+}
+.room .room-right span.l {
+	display: block;
+	font-size:0.25rem;
+	color:#a5a5a5;
+	padding-right: 0.28rem; 
+	float: left; 
+}
+.room .room-right span.c{
+	display: block;
+	font-size:0.25rem;
+	color:#a5a5a5;
+	margin-top: 0.03rem;
+    padding-right: 1.4rem;  
+	float: left; 
+}
+.room .room-right span.r{
+	display: block;
+	margin-top: 0.03rem;
+	font-size:0.25rem;
+	color:orange; 
+}
+.room .room-right a{
+	display: block;
+	margin: 0.14rem 0rem;
+	text-decoration: none;
+	width: 0.9rem;
+	height: 0.35rem;
+	border: 1px solid #6f6f6f;
+	border-radius: 0.1rem; 
+	text-align: center;
+	font-size: 0.25rem;
+	line-height: 0.35rem;
+	color: #6f6f6f;
+}
+.room .room-right img{
+	width: 0.3rem;
+	height: 0.25rem;
+	display: block;
+	float: left;
+	padding-right: 0.12rem;
+	margin-top: 0.08rem;
+	
+}
+.room .room-right span.b{
+  display: block;
+  width: 3rem;
+  height: 0.25rem;
+  color: #a5a5a5;
+}

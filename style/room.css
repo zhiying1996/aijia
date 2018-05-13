@@ -1,0 +1,569 @@
+*,::before,::after{ margin:0; padding:0; box-sizing:border-box;}
+
+a, article, aside, audio, b, blockquote, body, canvas, caption, dd,  details,div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, label, legend, li, menu, nav, object, ol, output, p,s, section, small, span, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video
+ { margin: 0; padding: 0;  -webkit-touch-callout: none;/*当你触摸并按住触摸目标时候，禁止或显示系统默认菜单 */-webkit-tap-highlight-color: rgba(0,0,0,0); } 
+ol, ul,li{ list-style: none;}
+table { border-collapse: collapse;/*表格的边线重叠*/ border-spacing: 0; }
+input,textarea{resize:none;/*调整尺寸*/ -webkit-user-select: auto !important;} 
+:focus{outline:none;}
+html{font-size: 100px;}
+.m_layout{ width:100%; height:auto;/*后续再去掉*/ background:#f9f9f9; max-width:7.5rem; min-width:3.2rem; margin:0 auto;-webkit-overflow-scrolling:touch; position:relative; z-index:100;overflow: hidden;}
+.tit{
+	width: 100%;
+	height:4.5rem;
+	background: yellow;
+	position: relative;
+}
+.tit a{
+	position: absolute;
+	display: block;
+	 width:0.65rem;
+	height: 0.65rem;
+	z-index: 1000;
+}
+.tit a img{	
+	display: block;
+	float: left;
+	 width:0.65rem;
+	height: 0.65rem;
+} 
+.tit a:nth-child(1) img{
+
+	margin-top: 0.14rem;
+	margin-left: 0.17rem;
+}
+.tit a:nth-child(2) img{
+	position: absolute;
+	top: 0.14rem;
+  left:5.75rem;
+}
+.tit a:nth-child(3) img{
+	position: absolute;
+	top: 0.14rem;
+    left:6.72rem;
+}
+.tit .swiper-container .swiper-wrapper .swiper-slide img{
+	width: 100%;
+	height: 4.5rem;
+	display: block;
+}
+.pay{
+	width: 100%;
+	height: 1.92rem;
+	padding: 0rem 0.28rem;
+	border-bottom: 1px solid #e1e1e1;
+}
+.pay p{
+	width: 100%;
+	height: 0.9rem;
+    font-size:0.28rem;
+    color: #4c4c4c; 
+    padding-top: 0.39rem;
+    padding-bottom: 0.39rem;
+}
+.pay div{
+	width: 100%;
+	height: 1rem;
+	padding-top: 0.2rem;
+}
+.pay div a{
+	text-decoration: none;
+	color: orange;
+	height: 0.32rem;
+	line-height: 0.32rem;
+	font-size: 0.32rem;
+	float: left;
+}
+.pay div a sub{
+   font-size: 0.2rem; 
+}
+.pay div span.s1{
+	display: block;
+	width: 0.64rem;
+	height: 0.36rem;
+	background: pink;
+	color: orange;
+	text-align: center;
+	border-radius: 0.05rem;
+	line-height: 0.36rem;
+	float: left;
+	margin-left: 0.25rem;
+   margin-top: 0.05rem;
+}
+.pay div img{
+	display: block;
+	width: 0.26rem;
+	height: 0.26rem;
+	float: left;
+	margin-left: 2.1rem;
+	margin-top: 0.1rem;
+
+}
+.pay span.s2{
+  display: block;
+  width: 1.3rem;
+  height: 0.26rem;
+  line-height: 0.26rem;
+  text-align: center;
+  font-size: 0.26rem;
+  color:orange;
+  float:right;
+  margin-top: 0.1rem;
+}
+.address{
+	width: 100;
+	height: 3.02rem;
+	padding:0.34rem 0.28rem;
+	background: #fff;
+	margin-bottom: 0.2rem; 
+}
+.address span:nth-child(1){
+	width: 1.74rem;
+	height: 0.43rem;
+	display: block;
+	line-height: 0.43rem;
+	text-align: center;
+	border: 1px solid #636363;
+	border-radius: 0.05rem;
+	color:#636363;
+	font-size: 0.24rem;
+	float: left;
+	padding-bottom: 0.26rem;
+
+}
+.address span:nth-child(2){
+	width: 0.76rem;
+	height: 0.43rem;
+	display: block;
+	line-height: 0.43rem;
+	text-align: center;
+	border: 1px solid #636363;
+	border-radius: 0.05rem;
+	color:#636363;
+	font-size: 0.24rem;
+	margin-left: 1.88rem;
+	margin-bottom: 0.26rem;
+}
+.address span:nth-child(3){
+	width: 2rem;
+	height: 0.3rem;
+	display: block;
+	line-height: 0.3rem;
+	color:#7f7f7f;
+	font-size: 0.24rem;
+	float:left;
+
+}
+.address span:nth-child(4){
+	width: 2rem;
+	height: 0.3rem;
+	display: block;
+	line-height: 0.3rem;
+	color:#7f7f7f;
+	font-size: 0.24rem;
+	margin-left: 2.56rem;
+	margin-bottom: 0.4rem;
+}
+
+.address span:nth-child(5){
+	width: 2rem;
+	height: 0.3rem;
+	display: block;
+	line-height: 0.3rem;
+	color:#7f7f7f;
+	font-size: 0.24rem;
+	float:left;
+
+
+}
+.address span:nth-child(6){
+	width: 2rem;
+	height: 0.3rem;
+	display: block;
+	line-height: 0.3rem;
+	color:#7f7f7f;
+	font-size: 0.24rem;
+	margin-left: 2.56rem;
+	margin-bottom: 0.4rem;
+}
+.address p{
+	width: 5.7rem;
+	height: 0.24rem;
+	float: left;
+	line-height: 0.24rem;
+	color:#7f7f7f;
+	font-size: 0.24rem;
+}
+.address img{
+	display: block;
+	width: 0.24rem;
+	height: 0.24rem;
+	margin-left: 6.62rem;
+}
+.furniture{
+	width: 100%;
+	height: 7.12rem;
+	padding:0rem 0.28rem;
+	background: #fff;
+	border-bottom: 1px solid #e1e1e1;
+}
+.furniture p{
+	width: 100%;
+	height: 1.02rem;
+	text-align: center;
+	line-height: 1.02rem;
+	color:#4a4a4a;
+	font-size: 0.35rem;
+}
+.furniture ul{
+	width: 100%;
+	height: 6.1rem;
+}
+	
+.furniture ul li{
+	width: 100%;
+	height:1.5rem;
+}
+.furniture ul li div{
+	float: left;
+	width: 1.72rem;
+	height: 1.52rem;
+}
+.furniture ul li div img{
+	width: 0.58rem;
+	height: 0.58rem;
+   top: 0.15rem;
+	display: block;
+	margin: auto;
+}
+.furniture ul li div p{
+	height: 0.24rem;
+	font-size:0.24rem;
+	color:#313131;
+	margin-top: 0.2rem;
+	line-height: 0.24rem;
+	text-align:center;
+}
+.electrical{
+	width: 100%;
+	height: 4.06rem;
+	padding:0rem 0.28rem;
+	background: #fff;
+	margin-bottom: 0.18rem;
+}
+.electrical p{
+	width: 100%;
+	height: 1.02rem;
+	text-align: center;
+	line-height: 1.02rem;
+	color:#4a4a4a;
+	font-size: 0.35rem;
+}
+.electrical ul{
+	width: 100%;
+	height: 6.1rem;
+}
+	
+.electrical ul li{
+	width: 100%;
+	height:1.5rem;
+}
+.electrical ul li div{
+	float: left;
+	width: 1.72rem;
+	height: 1.52rem;
+}
+.electrical ul li div img{
+	width: 0.58rem;
+	height: 0.58rem;
+   top: 0.15rem;
+	display: block;
+	margin: auto;
+}
+.electrical ul li div p{
+	height: 0.24rem;
+	font-size:0.24rem;
+	color:#313131;
+	margin-top: 0.2rem;
+	line-height: 0.24rem;
+	text-align:center;
+}
+.information{
+	width: 100%;
+	height: 5.18rem;
+	background:#fff;
+	margin-bottom:0.2rem; 
+}
+.information p{
+	width: 100%;
+	height: 0.98rem;
+	padding: 0.2rem 0rem;
+	color:#4a4a4a;
+	font-size: 0.35rem;
+	text-align: center;
+}
+.information div{
+	width: 100%;
+	height: 0.84rem;
+}
+.information div span{
+	display: block;
+	float: left;
+	height: 0.5rem;
+	width: 1.87rem;
+	color: #737373;
+	font-size: 0.24rem;
+	text-align: center;
+}
+.information div span.mony{
+	color: orange;
+}
+.information div span.room{
+	height: 0.3rem;
+	width: 1.5rem;
+	float: left;
+	line-height: 0.3rem;
+	margin-top: 0.05rem;
+	border:1px solid orange;
+	border-radius: 0.05rem;
+	color: orange;
+}
+.roomphot{
+	width: 100%;
+	height: 6.2rem;
+	background: #fff;
+	margin-bottom: 0.2rem;
+}
+.roomphot p{
+width: 100%;
+height: 1rem;
+text-align: center;
+color:#4a4a4a;
+font-size: 0.35rem;
+padding:0.32rem 0rem;
+}
+.roomphot img{
+	display: block;
+	width: 100%;
+	height: 5.22rem;
+}
+.around{
+	width: 100%;
+	height: 2.86rem;
+	background: #fff;
+	margin-bottom: 0.2rem;
+}
+.around p{
+	width: 100%;
+	height: 0.98rem;
+	line-height: 0.35rem;
+	padding: 0.34rem 0rem;
+	text-align: center;
+    color:#4a4a4a;
+    font-size: 0.35rem;
+}
+.around div{
+	width: 100%;
+	height: 1.6rem;
+	border-bottom: 1px solid #e1e1e1;
+}
+.around div span{
+display: block;
+width: 100%;
+height: 0.8rem;
+color: #7e7e7e;
+font-size: 0.23rem;
+line-height: 0.8rem;
+padding-left:0.3rem;
+}
+.serve{
+	width: 100%;
+	height: 3rem;
+	background: #fff;
+	margin-bottom: 0.2rem;
+}
+.serve p{
+	width: 100%;
+	height: 0.98rem;
+	line-height: 0.35rem;
+	padding: 0.34rem 0rem;
+	text-align: center;
+    color:#4a4a4a;
+    font-size: 0.35rem;
+}
+.serve div{
+	width: 100%;
+	height: 2rem;
+	position: relative;
+}
+.serve div img:nth-of-type(1){
+	display: block;
+	width: 1.2rem;
+	height: 1.2rem;
+	border: 2px solid #e8e8e8;
+	border-radius:0.6rem;
+	float: left;
+	margin:0.34rem 0rem 0.44rem 0.4rem;
+}
+.serve div .num{
+	position: absolute;
+	width: 2.5rem;
+	height: 1.1rem;
+    top:0.5rem; 
+    left:2.06rem; 
+}
+.serve div .num span{
+	display: block;
+	width: 100%;
+	height: 0.35rem;
+	color: #353535;
+	font-size: 0.3rem;
+	margin-top: 0.1rem;
+}
+.serve div .num span:nth-child(2){
+	color: #9d9d9d;
+	font-size: 0.28rem;
+}
+.serve div img:nth-of-type(2){
+	   display: block;
+	   width: 0.45rem;
+	   height: 0.45rem;
+	   float: right;  
+	   margin-top: 0.72rem;
+	   margin-right: 0.3rem;
+}
+.select-room{
+	width: 100%;
+	height: 9rem;
+	padding:0rem 0.2rem;
+	background: #fff;
+	margin-bottom: 0.2rem;
+}
+.select-room p{
+	width: 100%;
+	height: 0.98rem;
+	line-height: 0.35rem;
+	padding: 0.34rem 0rem;
+	text-align: center;
+    color:#4a4a4a;
+    font-size: 0.35rem;
+}
+.select-room ul{
+	width: 100%;
+	height:8.15rem;
+}
+.select-room ul li{
+	display:block;
+	width: 3.45rem;
+    height: 3.91rem;
+    float: left; 	
+}
+.select-room ul li:nth-child(odd){
+	float: left;
+}
+.select-room ul li:nth-child(even){
+	float: right;
+}
+.select-room ul li img{
+	display: block;
+	width: 3.48rem; 
+	height:2.61rem;
+}
+.select-room ul li p{
+	width: 100%;
+	height: 0.1rem;
+	text-align: center;
+	line-height: 0.1rem;
+	color: #525252;
+	font-size: 0.24rem;
+}
+.select-room ul li a{
+	text-decoration: none;
+	display: block;
+	color: #fc7200;
+	text-align: center;
+	font-size: 0.23rem;
+}
+.fu{
+	width: 100%;
+	height: 8.3rem;
+	padding: 0rem 0.82rem;
+	background: #fff;
+}
+.fu p{
+	width: 100%;
+	height:1rem;
+	text-align: center;
+	color:#484848;
+	font-size: 0.35rem;
+	line-height: 1rem;
+}
+.fu ul{
+    width: 100%;
+    height: 7.3rem;
+}
+.fu ul li{
+	width:2.1rem;
+	height: 3.44rem;
+}
+.fu ul li:nth-child(odd){
+	float: left;
+}
+.fu ul li:nth-child(even){
+	float: right;
+}
+.fu ul li img{
+	display: block;
+	width: 1.6rem;
+	height:1.6rem;
+	margin: 0 auto;
+}
+.fu ul li span{
+	display: block;
+	width: 100%;
+	height:0.54rem;
+	line-height: 0.54rem;
+	text-align: center;
+	color: #565656;
+	font-size: 0.24rem; 
+}
+.fu ul li div{
+	width: 100%;
+	height: 1.08rem;
+	display: flex;
+	justify-content:space-between;
+}
+.fu ul li div span{
+	display: block;
+	height: 0.2rem;
+	width: 0.9rem;
+	color:#8a8a8a;
+	font-size: 0.24rem 
+}
+.internet{
+	width: 100%;
+	height: 1rem;
+	background: red;
+}
+.internet a{
+	display:block;
+	width: 50%;
+	height: 100%;
+	text-decoration: none;
+	float: left;
+}
+.internet a:nth-child(1){
+	text-align: center;
+	color: #fff; 
+	background: #ffcb3e;
+	font-size: 0.3rem;
+	line-height: 1rem;
+
+}
+.internet a:nth-child(2){
+	text-align: center;
+	color: #fff; 
+	background: #fd9840;
+	font-size: 0.3rem;
+	line-height: 1rem;
+}
